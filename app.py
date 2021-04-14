@@ -6,7 +6,7 @@ import sqlalchemy
 # https://api.telegram.org/bot1623674677:AAFNHd1PgUbzKH3YW7nUoUGXKzEePGGq3tY/setWebhook?url=https://5ac3d6c47f25.ngrok.io
 from db import User, Session
 
-TOKEN = os.getenv('TOKEN')  # '1623674677:AAGhGrT-8icuj1niyMnD5fntn2MmsCH7vB4'  # AAFNHd1PgUbzKH3YW7nUoUGXKzWePGGGq3tY
+TOKEN = "1610355784:AAHUz0b-GSk8iOlwlrR0jiLTkAeXYEOcw1M"  # '1623674677:AAGhGrT-8icuj1niyMnD5fntn2MmsCH7vB4'  # AAFNHd1PgUbzKH3YW7nUoUGXKzWePGGGq3tY
 URL = os.getenv('URL')
 # Хитро получаем абсолютный путь (для локального сервера)
 DEBUG = False
